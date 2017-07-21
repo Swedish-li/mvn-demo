@@ -3,7 +3,6 @@
 Archetype: [archetype-quickstart-jdk8:1.0.29](https://github.com/ngeor/archetype-quickstart-jdk8)
 
 [![Build Status](https://travis-ci.org/Swedish-li/mvn-demo.svg?branch=master)](https://travis-ci.org/Swedish-li/mvn-demo)
-
 [![Coverage Status](https://coveralls.io/repos/github/Swedish-li/mvn-demo/badge.svg)](https://coveralls.io/github/Swedish-li/mvn-demo)
 
 ## 相关文档
@@ -12,6 +11,7 @@ Archetype: [archetype-quickstart-jdk8:1.0.29](https://github.com/ngeor/archetype
 * [JAR File Specification][2]
 * [Maven变量及常见插件配置详解][3]
 * [使用Travis进行持续集成][4]
+* [coveralls-maven-plugin][6]
 
 ## 常用命令
 
@@ -81,3 +81,4 @@ $ mvn exec:java -Dexec.mainClass="com.lrs.App"
 [3]: http://blog.csdn.net/amorym/article/details/52619402
 [4]: http://www.liaoxuefeng.com/article/0014631488240837e3633d3d180476cb684ba7c10fda6f6000
 [5]: http://www.mojohaus.org/exec-maven-plugin/java-mojo.html
+[6]: https://github.com/trautonen/coveralls-maven-plugin
