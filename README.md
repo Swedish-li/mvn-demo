@@ -4,6 +4,8 @@ Archetype: [archetype-quickstart-jdk8:1.0.29](https://github.com/ngeor/archetype
 
 [![Build Status](https://travis-ci.org/Swedish-li/mvn-demo.svg?branch=master)](https://travis-ci.org/Swedish-li/mvn-demo)
 
+[![Coverage Status](https://coveralls.io/repos/github/Swedish-li/mvn-demo/badge.svg)](https://coveralls.io/github/Swedish-li/mvn-demo)
+
 ## 相关文档
 
 * [插件文档][1]

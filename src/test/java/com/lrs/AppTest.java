@@ -13,10 +13,15 @@ public class AppTest {
      */
     @Test
     public void testApp() {
+
+    	App.main(new String[]{});
+
     	App app = App.getInstance();
         
         assertNotNull(app);
 
         app.coverageTestMethod("ok");
+
+        app.coverageTestMethod("no");
     }
 }
