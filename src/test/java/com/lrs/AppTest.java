@@ -13,6 +13,10 @@ public class AppTest {
      */
     @Test
     public void testApp() {
-        assertTrue(true);
+    	App app = App.getInstance();
+        
+        assertNotNull(app);
+
+        app.coverageTestMethod("ok");
     }
 }

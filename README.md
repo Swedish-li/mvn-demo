@@ -61,8 +61,21 @@ $ mvn dependency:analyze
 $ mvn dependency:copy-dependencies
 ```
 
+运行类中的`main`方法
+
+使用 [`exec-maven-plugin`][5] 插件
+
+``` bash
+# 执行编译
+$ mvn compile
+
+$ mvn exec:java -Dexec.mainClass="com.lrs.App"
+
+```
+
 
 [1]: https://maven.apache.org/plugins/index.html
 [2]: http://docs.oracle.com/javase/1.5.0/docs/guide/jar/jar.html
 [3]: http://blog.csdn.net/amorym/article/details/52619402
 [4]: http://www.liaoxuefeng.com/article/0014631488240837e3633d3d180476cb684ba7c10fda6f6000
+[5]: http://www.mojohaus.org/exec-maven-plugin/java-mojo.html
